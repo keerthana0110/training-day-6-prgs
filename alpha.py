@@ -1,0 +1,17 @@
+str.isalnum() 
+print ('ab123a')
+str.isalnum()
+print ('ab123#'.isalnum())
+str.isalpha() 
+print( 'abcD'.isalpha())
+print ('(abcd1'.isalpha())
+str.isdigit()
+print ('1234'.isdigit()) print ('123edsd'.isdigit())
+
+str.islower() 
+print ('abcd123#'.islower())
+print ('Abcd123#'.islower())
+
+str.isupper()
+print ('ABCD123#'.isupper())
+print ('Abcd123#'.isupper())
