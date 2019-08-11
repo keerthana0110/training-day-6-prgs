@@ -4,6 +4,6 @@ def odd_values_string(str):
     if i % 2 == 0:
       result = result + str[i]
   return result
+a=input("enter a string")
+print(odd_values_string(a))
 
-print(odd_values_string('abcdef'))
-print(odd_values_string('python'))
